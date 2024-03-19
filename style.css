@@ -1,5 +1,6 @@
 /*Globale variabler*/
 /*Mixins*/
+/*Global styling*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,8 +12,56 @@ body {
   grid-template-columns: 1fr 45% 45% 1fr;
 }
 
-p {
+main {
+  grid-column: 2/4;
+}
+
+h1 {
+  font-family: "Sansita", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+p, a {
   font-family: "Droid Sans", sans-serif;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 32px;
+}
+
+p {
+  padding-bottom: 17px;
+}
+
+.red {
+  color: #D13E1A;
+}
+
+img {
+  width: 100%;
+}
+
+.hero-style {
+  display: flex;
+  gap: 8em;
+}
+.hero-style h1 {
+  padding-top: 75px;
+}
+
+.btn {
+  background-color: #D13E1A;
+  padding: 0.8em 1em;
+  border-radius: 20px 0 20px 0;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #fff;
+  border: 1px solid #D13E1A;
+  color: #D13E1A;
 }
 
 /*Navigation*/
@@ -30,8 +79,7 @@ header ul {
 header ul li a {
   text-decoration: none;
   color: black;
-  font-size: 1.2rem;
-  padding-right: 4em;
+  padding-right: 2em;
 }
 header img:nth-of-type(1) {
   width: 100%;
