@@ -1,1 +1,37 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  font-family: droid;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 45% 45% 1fr;
+}
+
+/*Navigation*/
+header {
+  grid-column: 2/4;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  padding-right: 4em;
+}
+header img:nth-of-type(1) {
+  width: 100%;
+}
+
+#sog {
+  width: 20%;
+}/*# sourceMappingURL=style.css.map */
