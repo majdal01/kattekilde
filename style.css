@@ -92,6 +92,7 @@ header ul li a:hover {
 }
 header img:nth-of-type(1) {
   width: 100%;
+  height: auto;
 }
 
 #sog {
