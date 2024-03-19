@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     border: 0;
+    color: partial.$text-color;
 }
 
 body{
@@ -32,6 +33,10 @@ p, a{
 
 p{
     padding-bottom: 17px;
+}
+
+.p-til-btn{
+    margin-bottom: 2em;
 }
 
 .red{
@@ -71,7 +76,11 @@ header{
         li a{
             text-decoration: none;
             color: black;
-            padding-right: 2em;
+            margin-right: 2em;
+
+            &:hover{
+                border-bottom: 3px solid partial.$cta-color;
+            }
         }
     }
 

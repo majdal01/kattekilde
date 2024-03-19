@@ -19,8 +19,9 @@ $overskrift-font: 'Sansita', sans-serif;
 
     &:hover{
         background-color: #fff;
-        border: 1px solid $cta-color;
+        border: 3px solid $cta-color;
         color: #D13E1A;
+        font-weight: 700;
     }
  }
 

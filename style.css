@@ -5,6 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   border: 0;
+  color: #0D0D0D;
 }
 
 body {
@@ -34,6 +35,10 @@ p {
   padding-bottom: 17px;
 }
 
+.p-til-btn {
+  margin-bottom: 2em;
+}
+
 .red {
   color: #D13E1A;
 }
@@ -60,8 +65,9 @@ img {
 }
 .btn:hover {
   background-color: #fff;
-  border: 1px solid #D13E1A;
+  border: 3px solid #D13E1A;
   color: #D13E1A;
+  font-weight: 700;
 }
 
 /*Navigation*/
@@ -79,7 +85,10 @@ header ul {
 header ul li a {
   text-decoration: none;
   color: black;
-  padding-right: 2em;
+  margin-right: 2em;
+}
+header ul li a:hover {
+  border-bottom: 3px solid #D13E1A;
 }
 header img:nth-of-type(1) {
   width: 100%;
