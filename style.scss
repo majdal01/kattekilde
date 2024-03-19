@@ -4,12 +4,15 @@
     box-sizing: border-box;
     margin: 0;
     border: 0;
-    font-family: droid;
 }
 
 body{
     display: grid;
     grid-template-columns: 1fr 45% 45% 1fr;
+}
+
+p{
+    font-family: 'Droid Sans', sans-serif;
 }
 
 /*Navigation*/
