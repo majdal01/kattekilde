@@ -256,13 +256,19 @@ footer{
 
 /*------Siden Katteracer---------*/
 
+.katterace-struktur{
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    gap: 6em;
+    margin: 2.5em 0;
+}
+
 .katteracerliste{
     grid-column: 1 / 2 ;
+    width: 100%;
     margin-top: 5em;
-    width: 27%;
     justify-self: left;
-    align-self: center;
-    margin-right: 20px;
+    
     border: 2px solid partial.$morkgron;
     border-radius: 20px;
     background-color: partial.$lysgron;
@@ -282,8 +288,52 @@ footer{
             line-height: 2em;
 
             &:hover{
+                display: block;
                 background-color: #E8CBC0;
-                width: 100%;
             }
         }
 }
+
+.aktiv-race{
+    display: block;
+    background-color: #E8CBC0;
+}
+
+/* Katterace Hovedindhold*/
+
+.katterace-hovedindhold{
+    grid-column: 2 / 3;
+    margin-top: 5em;
+
+    article{
+        border: 2px solid partial.$morkgron;
+        border-radius: 20px;
+        padding: 1.5em;
+        margin: 1.5em 0;
+
+        li{
+            list-style: none;
+        }
+
+        h3{
+            font-size: 1.7em;
+        }
+
+        h3, p{
+            display: inline;
+            line-height: 2em;
+        }
+
+        img{
+            width: 10%;
+            float: right;
+            
+        }
+    }
+
+    h2:nth-of-type(2){
+        padding-bottom: 0.5em;
+        padding-top: 1em;
+    }
+}
+
