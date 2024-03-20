@@ -174,9 +174,6 @@ header img:nth-of-type(1) {
   background-color: #EEEEEA;
   padding: 2.5em;
 }
-.artikler a {
-  color: #D13E1A;
-}
 .artikler article {
   border-top: 2px solid #5A5930;
   padding: 2.4em 0;
