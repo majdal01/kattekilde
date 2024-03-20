@@ -145,11 +145,6 @@ aside{
 
         a{
             color: partial.$cta-color;
-
-            &:hover{
-                transition: font-size 3s linear ease-in;
-                font-size: 26px;
-            }
         }
 
         article{
@@ -165,5 +160,52 @@ aside{
     justify-self: right;
     align-self: center;
     margin-right: 3em;
+}
+
+/*Footer*/
+
+footer{
+    grid-column: 1 / 5;
+    border: 2px solid;
+    border-color: partial.$morkgron transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    margin-top: 2em;
+}
+
+.footer-struktur{
+    display: flex;
+    justify-content: space-between;
+    margin: 8em 7em 1em 8em;
+
+    ul{
+        padding: 0;
+        line-height: 2.5em;
+    }
+
+     li{
+        list-style: none;
+     }
+
+     a{
+        text-decoration: none;
+
+        &:hover{
+            color: partial.$cta-color;
+        }
+     }
+}
+
+.footerkontakt{
+    h3{
+        padding-bottom: 0.2em;
+    }
+
+    h3:nth-of-type(2){
+        padding-top: 0.8em;
+    }
+}
+
+.copyright{
+    text-align: center;
 }
 
