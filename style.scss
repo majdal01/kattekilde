@@ -257,5 +257,33 @@ footer{
 /*------Siden Katteracer---------*/
 
 .katteracerliste{
-    
+    grid-column: 1 / 2 ;
+    margin-top: 5em;
+    width: 27%;
+    justify-self: left;
+    align-self: center;
+    margin-right: 20px;
+    border: 2px solid partial.$morkgron;
+    border-radius: 20px;
+    background-color: partial.$lysgron;
+    padding: 2.5em;
+
+        h3{
+            padding: 1em 0 0.3em 0;
+        }
+
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+
+        a{
+            text-decoration: none;
+            line-height: 2em;
+
+            &:hover{
+                background-color: #E8CBC0;
+                width: 100%;
+            }
+        }
 }

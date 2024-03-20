@@ -268,4 +268,31 @@ footer {
   width: 5%;
 }
 
-/*------Siden Katteracer---------*//*# sourceMappingURL=style.css.map */
+/*------Siden Katteracer---------*/
+.katteracerliste {
+  grid-column: 1/2;
+  margin-top: 5em;
+  width: 27%;
+  justify-self: left;
+  align-self: center;
+  margin-right: 20px;
+  border: 2px solid #5A5930;
+  border-radius: 20px;
+  background-color: #EEEEEA;
+  padding: 2.5em;
+}
+.katteracerliste h3 {
+  padding: 1em 0 0.3em 0;
+}
+.katteracerliste ul {
+  list-style: none;
+  padding: 0;
+}
+.katteracerliste a {
+  text-decoration: none;
+  line-height: 2em;
+}
+.katteracerliste a:hover {
+  background-color: #E8CBC0;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
