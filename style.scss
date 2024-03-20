@@ -225,12 +225,24 @@ footer{
 
 .potestreg{
     
+    div{
+        width: 95%;
+        float: right;
+        margin-top: 2.5em;
+    }
 
+    img{
+        width: 5%;
+    }
+}
+
+.potestreg2{
+    display: block;
     
     div{
-        display: inline-flex;
-        width: 90%;
-        float: right;
+        width: 95%;
+        float: left;
+        margin-top: 2.5em;
     }
 
     img{
