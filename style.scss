@@ -24,6 +24,13 @@ h1{
     padding-bottom: 50px;
 }
 
+h2{
+    font-family: partial.$overskrift-font;
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
 p, a{
     font-family: partial.$brodfont;
     font-size: 22px;
@@ -45,15 +52,6 @@ p{
 
 img{
     width: 100%;
-}
-
-.hero-style{
-    display: flex;
-    gap: 8em;
-
-        h1{
-            padding-top: 75px;
-        }
 }
 
 .btn{
@@ -95,3 +93,29 @@ header{
    width: 20%;
 }
 
+/*Hero-området*/
+
+.hero-style{
+    display: flex;
+    gap: 8em;
+
+        h1{
+            padding-top: 75px;
+        }
+}
+
+/*Under hero område*/
+
+.struktur-forside{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 8em;
+}
+
+.gron{
+    @include partial.gronkasse;
+}
+
+.btn-forside{
+   @include partial.btn ($btn-padding: 0.8em 3em); 
+}

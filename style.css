@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Globale variabler*/
 /*Mixins*/
 /*Global styling*/
@@ -20,6 +21,13 @@ main {
 h1 {
   font-family: "Sansita", sans-serif;
   font-size: 60px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-family: "Sansita", sans-serif;
+  font-size: 48px;
   font-weight: 400;
   padding-bottom: 50px;
 }
@@ -47,17 +55,9 @@ img {
   width: 100%;
 }
 
-.hero-style {
-  display: flex;
-  gap: 8em;
-}
-.hero-style h1 {
-  padding-top: 75px;
-}
-
 .btn {
   background-color: #D13E1A;
-  padding: 0.8em 1em;
+  padding: 0.8em 1.5em;
   border-radius: 20px 0 20px 0;
   color: #fff;
   text-decoration: none;
@@ -97,4 +97,51 @@ header img:nth-of-type(1) {
 
 #sog {
   width: 20%;
+}
+
+/*Hero-området*/
+.hero-style {
+  display: flex;
+  gap: 8em;
+}
+.hero-style h1 {
+  padding-top: 75px;
+}
+
+/*Under hero område*/
+.struktur-forside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 8em;
+}
+
+.gron {
+  grid-column: 1/2;
+  border: 2px solid #5A5930;
+  border-radius: 20px;
+  width: 75%;
+  position: relative;
+  height: 580px;
+  padding: 1em 3em;
+  margin-bottom: 15em;
+}
+.gron img {
+  position: absolute;
+  top: 25em;
+  left: 10em;
+}
+
+.btn-forside {
+  background-color: #D13E1A;
+  padding: 0.8em 3em;
+  border-radius: 20px 0 20px 0;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.btn-forside:hover {
+  background-color: #fff;
+  border: 3px solid #D13E1A;
+  color: #D13E1A;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
