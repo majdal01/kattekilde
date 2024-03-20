@@ -213,3 +213,8 @@ footer{
     text-align: center;
 }
 
+/*-------Siden Overvejelser---------*/
+
+.flex{
+    @include partial.overvejelser-flex;
+}

@@ -223,4 +223,18 @@ footer {
 
 .copyright {
   text-align: center;
+}
+
+/*-------Siden Overvejelser---------*/
+.flex {
+  display: flex;
+  gap: 5em;
+  margin: 5em 0;
+}
+.flex article {
+  align-self: center;
+}
+.flex img {
+  width: 50%;
+  align-self: flex-end;
 }/*# sourceMappingURL=style.css.map */
