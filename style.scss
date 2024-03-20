@@ -67,6 +67,10 @@ img{
     @include partial.btn;
 }
 
+.aktivside{
+    border-bottom: 3px solid partial.$cta-color;
+}
+
 /*Navigation*/
 
 header{
@@ -135,7 +139,7 @@ header{
 
 /*Artikler*/
 
-aside{
+.artikler{
     grid-area: 1 / 2 / span 2 / 3;
     margin-top: 5em;
     width: 70%;
@@ -248,4 +252,10 @@ footer{
     img{
         width: 5%;
     }
+}
+
+/*------Siden Katteracer---------*/
+
+.katteracerliste{
+    
 }
