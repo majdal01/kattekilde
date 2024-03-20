@@ -237,4 +237,17 @@ footer {
 .flex img {
   width: 50%;
   align-self: flex-end;
+}
+
+.linje {
+  border: 1.5px solid #5A5930;
+}
+
+.potestreg div {
+  display: inline-flex;
+  width: 90%;
+  float: right;
+}
+.potestreg img {
+  width: 5%;
 }/*# sourceMappingURL=style.css.map */

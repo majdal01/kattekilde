@@ -218,3 +218,22 @@ footer{
 .flex{
     @include partial.overvejelser-flex;
 }
+
+.linje{
+    border: 1.5px solid partial.$morkgron;
+}
+
+.potestreg{
+    
+
+    
+    div{
+        display: inline-flex;
+        width: 90%;
+        float: right;
+    }
+
+    img{
+        width: 5%;
+    }
+}
