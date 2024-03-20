@@ -31,6 +31,15 @@ h2{
     padding-bottom: 50px;
 }
 
+h3{
+    font-family: partial.$overskrift-font;
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    padding-bottom: 0.8em;
+    font-weight: 300;
+}
+
 p, a{
     font-family: partial.$brodfont;
     font-size: 22px;
@@ -119,3 +128,33 @@ header{
 .btn-forside{
    @include partial.btn ($btn-padding: 0.8em 3em); 
 }
+
+/*Artikler*/
+
+aside{
+    grid-area: 1 / 2 / span 2 / 3;
+    margin-top: 5em;
+    width: 70%;
+    justify-self: right;
+    align-self: center;
+    margin-left: 20px;
+    border: 2px solid partial.$morkgron;
+    border-radius: 20px;
+    background-color: partial.$lysgron;
+    padding: 2.5em;
+
+        a{
+            color: partial.$cta-color;
+
+            &:hover{
+                transition: font-size 3s linear ease-in;
+                font-size: 26px;
+            }
+        }
+
+        article{
+            border-top: 2px solid partial.$morkgron;
+            padding: 2.4em 0;
+        }
+}
+
