@@ -43,7 +43,7 @@ h3 {
 
 p, a {
   font-family: "Droid Sans", sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 1px;
   line-height: 32px;
 }
@@ -275,6 +275,7 @@ footer {
 
 .katteracerliste {
   grid-column: 1/2;
+  position: relative;
   width: 100%;
   margin-top: 5em;
   justify-self: left;
@@ -297,6 +298,12 @@ footer {
 .katteracerliste a:hover {
   display: block;
   background-color: #E8CBC0;
+}
+.katteracerliste img {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 2em;
 }
 
 .aktiv-race {
