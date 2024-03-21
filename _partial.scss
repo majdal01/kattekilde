@@ -9,7 +9,7 @@ $overskrift-font: 'Sansita', sans-serif;
 
 /*Mixins*/
 
-@mixin btn($btn-padding: 0.8em 1.5em){ 
+@mixin btn($btn-padding: 0.8em 1.2em){ 
     background-color: $cta-color;
     padding: $btn-padding;
     border-radius: 20px 0 20px 0;

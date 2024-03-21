@@ -117,7 +117,7 @@ header{
     gap: 8em;
 
         h1{
-            padding-top: 75px;
+            padding-top: 0.8em;
         }
 }
 
@@ -138,7 +138,7 @@ header{
 }
 
 .btn-forside{
-   @include partial.btn ($btn-padding: 0.8em 3em); 
+   @include partial.btn ($btn-padding: 0.8em 2em); 
 }
 
 /*Artikler*/
@@ -344,3 +344,27 @@ footer{
     }
 }
 
+
+/*--------Media Query-----------*/
+
+@media screen and (max-width: 1300px) {
+    h1{
+        font-size: 50px;
+    }
+
+    .hero-img{
+        width: 50%;
+    }
+
+    .struktur-forside{
+        padding-top: 0;
+    }
+
+    .gron{
+        h2{
+         font-size: 40px;
+        }
+    }
+
+
+}

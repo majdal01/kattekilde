@@ -68,7 +68,7 @@ img {
 
 .btn {
   background-color: #D13E1A;
-  padding: 0.8em 1.5em;
+  padding: 0.8em 1.2em;
   border-radius: 20px 0 20px 0;
   color: #fff;
   text-decoration: none;
@@ -119,7 +119,7 @@ header img:nth-of-type(1) {
   gap: 8em;
 }
 .hero-style h1 {
-  padding-top: 75px;
+  padding-top: 0.8em;
 }
 
 .hero-img {
@@ -151,7 +151,7 @@ header img:nth-of-type(1) {
 
 .btn-forside {
   background-color: #D13E1A;
-  padding: 0.8em 3em;
+  padding: 0.8em 2em;
   border-radius: 20px 0 20px 0;
   color: #fff;
   text-decoration: none;
@@ -341,4 +341,20 @@ footer {
 .katterace-hovedindhold h2:nth-of-type(2) {
   padding-bottom: 0.5em;
   padding-top: 1em;
+}
+
+/*--------Media Query-----------*/
+@media screen and (max-width: 1300px) {
+  h1 {
+    font-size: 50px;
+  }
+  .hero-img {
+    width: 50%;
+  }
+  .struktur-forside {
+    padding-top: 0;
+  }
+  .gron h2 {
+    font-size: 40px;
+  }
 }/*# sourceMappingURL=style.css.map */
