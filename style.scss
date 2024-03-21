@@ -87,6 +87,7 @@ header{
     ul{
         display: flex;
         list-style: none;
+        padding: 0;
 
         li a{
             text-decoration: none;
@@ -110,7 +111,7 @@ header{
    width: 20%;
 }
 
-.fa-bars{
+header .fa-bars{
     display: none;
 }
 
@@ -118,10 +119,10 @@ header{
 
 .hero-style{
     display: flex;
-    gap: 8em;
+    gap: 3em;
 
         h1{
-            padding-top: 0.8em;
+            padding-top: 0.2em;
         }
 }
 
@@ -150,7 +151,7 @@ header{
 .artikler{
     grid-area: 1 / 2 / span 2 / 3;
     margin-top: 4em;
-    width: 70%;
+    width: 80%;
     justify-self: right;
     align-self: center;
     margin-left: 20px;
@@ -352,6 +353,18 @@ footer{
 /*--------Media Query-----------*/
 
 @media screen and (max-width: 1300px) {
+   header{
+    img:nth-of-type(1){
+        width: 80%;
+        height: auto;
+    }
+    ul{
+        li a{
+            margin-right: 1em;
+        }
+    }
+   }
+    
     h1{
         font-size: 50px;
     }
@@ -361,7 +374,7 @@ footer{
     }
 
     .struktur-forside{
-        padding-top: 0;
+        padding-top: 4em;
     }
 
     .gron{
@@ -373,7 +386,42 @@ footer{
 
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1050px){
+
+    header nav{
+        display: none;
+    }
+
+    #sog{
+        display: none;
+    }
+
+    header .fa-bars{
+        display: block;
+        font-size: 2.5em;
+    }
+
+    .hero-style article h1{
+
+            padding: 0 0 0.5em 0;
+    
+        }
+        
+
+    .gron{
+        padding: 2em;
+        img{
+            position: absolute;
+            top: 27em;
+            left: 6em;
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 900px){
     
 /*-----Index-------*/
 
@@ -386,16 +434,7 @@ footer{
     }
 
     p, a{
-        font-size: 18px;
-    }
-
-
-    header nav{
-        display: none;
-    }
-
-    #sog{
-        display: none;
+        font-size: 20px;
     }
 
     header a{
@@ -403,10 +442,7 @@ footer{
         padding: 0;
     }
 
-    .fa-bars{
-        display: block;
-        font-size: 2.5em;
-    }
+   
     
     .hero-style{
         flex-direction: column;
@@ -428,29 +464,19 @@ footer{
             width: 100%;
             padding: 1.5em;
             margin-bottom: 3em;
-            height: 45em;
-
-            a{
-                margin-bottom: 1em;
-            }
+            height: auto;
+            overflow: hidden;
         }
+            img{
+                position: inherit;
+                top: 2em;
+                left: 0em;
+            }
     }
 
     .btn{
-        padding: 0.8em 0.5em;
+        padding: 0.8em 1em;
     }
-
-    .gron{
-        display: flex;
-        flex-direction: column;
-        img{
-            position: relative;
-            top: 0em;
-            left: 0em;
-            margin-top: 0.7em;
-        }
-    }
-
 
     .artikler{
         width: 100%;
