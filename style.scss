@@ -418,9 +418,6 @@ footer{
     }
 }
 
-
-
-
 @media screen and (max-width: 900px){
     
 /*-----Index-------*/
@@ -484,6 +481,26 @@ footer{
         padding: 2em;
     }
 
+/*--Overvejelser--*/
+
+.flex{
+    flex-direction: column;
+    
+    img{
+        align-self: center;
+        order: 2;
+        width: 80%;
+    }
+}
+
+.potestreg div, .potestreg2 div{
+    margin-top: 1.5em;
+}
+
+
+/*---Footer---*/
+
+
     .footer-struktur{
         flex-direction: column;
         margin: 4em 2em 2em 3em;
@@ -500,6 +517,15 @@ footer{
 }
 
 @media screen and (max-width:520px){
+
+/*--Overvejelser--*/
+
+.potestreg div, .potestreg2 div{
+    margin-top: 0.7em;
+}
+
+
+/*--Footer--*/
 
     .footerkontakt{
 
