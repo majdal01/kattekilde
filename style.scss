@@ -6,11 +6,15 @@
     margin: 0;
     border: 0;
     color: partial.$text-color;
+    
 }
+
 
 body{
     display: grid;
     grid-template-columns: 1fr 45% 45% 1fr;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 main{
@@ -141,7 +145,7 @@ header{
 
 .artikler{
     grid-area: 1 / 2 / span 2 / 3;
-    margin-top: 5em;
+    margin-top: 4em;
     width: 70%;
     justify-self: right;
     align-self: center;
