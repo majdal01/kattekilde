@@ -319,6 +319,10 @@ footer {
 }
 
 /* Katterace Hovedindhold*/
+.dropdown {
+  display: none;
+}
+
 .katterace-hovedindhold {
   grid-column: 2/3;
   margin-top: 5em;
@@ -451,6 +455,54 @@ footer {
   }
   .potestreg div, .potestreg2 div {
     margin-top: 1.5em;
+  }
+  /*--Katteracer--*/
+  .katteracerliste {
+    display: none;
+  }
+  .dropdown {
+    grid-column: 1/span 2;
+    justify-self: center;
+    position: relative;
+    display: inline-block;
+  }
+  .dropbtn {
+    background-color: #D13E1A;
+    border-radius: 10px;
+    color: white;
+    padding: 1em;
+    font-size: 20px;
+    width: 200%;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-height: 500px;
+    overflow: scroll;
+  }
+  .dropdown-content a, h3 {
+    color: black;
+    padding: 13px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #E8CBC0;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #fff;
+    color: #D13E1A;
+    border: 3px solid #D13E1A;
+  }
+  .katterace-hovedindhold {
+    grid-column: 1/span2;
   }
   /*---Footer---*/
   .footer-struktur {
