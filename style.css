@@ -134,6 +134,10 @@ header .fa-bars {
   display: none;
 }
 
+.aktivlink {
+  border-bottom: 3px solid #D13E1A;
+}
+
 /*Hero-området*/
 .hero-style {
   display: flex;
