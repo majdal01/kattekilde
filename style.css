@@ -84,6 +84,11 @@ img {
   border-bottom: 3px solid #D13E1A;
 }
 
+.piltiltop {
+  width: 5%;
+  float: right;
+}
+
 /*Navigation*/
 header {
   grid-column: 2/4;
