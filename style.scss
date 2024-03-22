@@ -323,18 +323,13 @@ footer{
         }
 }
 
-.aktiv-race{
-    display: block;
-    background-color: #E8CBC0;
-}
-
 /* Katterace Hovedindhold*/
 
 .dropdown{
     display: none;
 }
 
-.katterace-hovedindhold{
+.racekat-beskrivelse{
     grid-column: 2 / 3;
     margin-top: 5em;
 
@@ -542,7 +537,7 @@ footer{
     display: none;
 }
 
-.katterace-hovedindhold article{
+.racekat-beskrivelse article{
     padding: 0.5em;
     h3{
         padding: 0;
@@ -577,6 +572,9 @@ footer{
     z-index: 1;
     max-height: 500px;
     overflow: scroll;
+        li{
+            list-style: none;
+        }
 }
 
 .dropdown-content a, h3 {
@@ -600,7 +598,7 @@ footer{
     border: 3px solid partial.$cta-color;
 }
 
-.katterace-hovedindhold{
+.racekat-beskrivelse{
     grid-column: 1 / span2;
 }
 

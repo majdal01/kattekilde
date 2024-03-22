@@ -330,41 +330,36 @@ footer {
   margin-bottom: 2em;
 }
 
-.aktiv-race {
-  display: block;
-  background-color: #E8CBC0;
-}
-
 /* Katterace Hovedindhold*/
 .dropdown {
   display: none;
 }
 
-.katterace-hovedindhold {
+.racekat-beskrivelse {
   grid-column: 2/3;
   margin-top: 5em;
 }
-.katterace-hovedindhold article {
+.racekat-beskrivelse article {
   border: 2px solid #5A5930;
   border-radius: 20px;
   padding: 1.5em;
   margin: 1.5em 0;
 }
-.katterace-hovedindhold article li {
+.racekat-beskrivelse article li {
   list-style: none;
 }
-.katterace-hovedindhold article h3 {
+.racekat-beskrivelse article h3 {
   font-size: 1.7em;
 }
-.katterace-hovedindhold article h3, .katterace-hovedindhold article p {
+.racekat-beskrivelse article h3, .racekat-beskrivelse article p {
   display: inline;
   line-height: 2em;
 }
-.katterace-hovedindhold article img {
+.racekat-beskrivelse article img {
   width: 10%;
   float: right;
 }
-.katterace-hovedindhold h2:nth-of-type(2) {
+.racekat-beskrivelse h2:nth-of-type(2) {
   padding-bottom: 0.5em;
   padding-top: 1em;
 }
@@ -487,13 +482,13 @@ footer {
   .katteracerliste {
     display: none;
   }
-  .katterace-hovedindhold article {
+  .racekat-beskrivelse article {
     padding: 0.5em;
   }
-  .katterace-hovedindhold article h3 {
+  .racekat-beskrivelse article h3 {
     padding: 0;
   }
-  .katterace-hovedindhold article ul {
+  .racekat-beskrivelse article ul {
     padding: 1em;
   }
   .dropdown {
@@ -520,6 +515,9 @@ footer {
     max-height: 500px;
     overflow: scroll;
   }
+  .dropdown-content li {
+    list-style: none;
+  }
   .dropdown-content a, h3 {
     color: black;
     padding: 13px 16px;
@@ -537,7 +535,7 @@ footer {
     color: #D13E1A;
     border: 3px solid #D13E1A;
   }
-  .katterace-hovedindhold {
+  .racekat-beskrivelse {
     grid-column: 1/span2;
   }
   /*---Footer---*/
