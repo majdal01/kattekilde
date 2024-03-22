@@ -280,20 +280,20 @@ footer{
 .katterace-struktur{
     display: grid;
     grid-template-columns: 25% 1fr;
-    gap: 6em;
+    gap: 5em;
     margin: 2.5em 0;
 }
 
 .katteracerliste{
     grid-column: 1 / 2 ;
     position: relative;
-    width: 100%;
+    width: 110%;
     margin-top: 5em;
     justify-self: left;
     border: 2px solid partial.$morkgron;
     border-radius: 20px;
     background-color: partial.$lysgron;
-    padding: 2.5em;
+    padding: 2em;
 
         h3{
             padding: 1em 0 0.3em 0;
@@ -541,6 +541,16 @@ footer{
 .katteracerliste{
     display: none;
 }
+
+.katterace-hovedindhold article{
+    padding: 0.5em;
+    h3{
+        padding: 0;
+    }
+    ul{
+        padding: 1em;
+    }
+} 
 
 .dropdown{
     grid-column: 1 / span 2;
