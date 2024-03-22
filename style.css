@@ -310,6 +310,7 @@ footer {
   width: 50%;
   position: absolute;
   bottom: 0;
+  left: 4em;
   margin-bottom: 2em;
 }
 
@@ -397,6 +398,14 @@ footer {
     left: 6em;
   }
 }
+/*katteracer*/
+.katteracerliste {
+  padding: 1.5em;
+}
+.katteracerliste h2 {
+  font-size: 38px;
+}
+
 @media screen and (max-width: 900px) {
   /*-----Index-------*/
   h1 {
