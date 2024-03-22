@@ -397,15 +397,14 @@ footer {
     top: 27em;
     left: 6em;
   }
+  /*katteracer*/
+  .katteracerliste {
+    padding: 1.5em;
+  }
+  .katteracerliste h2 {
+    font-size: 38px;
+  }
 }
-/*katteracer*/
-.katteracerliste {
-  padding: 1.5em;
-}
-.katteracerliste h2 {
-  font-size: 38px;
-}
-
 @media screen and (max-width: 900px) {
   /*-----Index-------*/
   h1 {
@@ -418,7 +417,7 @@ footer {
     font-size: 20px;
   }
   header a {
-    width: 70%;
+    width: 50%;
     padding: 0;
   }
   .hero-style {
@@ -466,6 +465,9 @@ footer {
     margin-top: 1.5em;
   }
   /*--Katteracer--*/
+  .hero-style h1 {
+    margin-top: 1em;
+  }
   .katteracerliste {
     display: none;
   }
@@ -516,7 +518,10 @@ footer {
   /*---Footer---*/
   .footer-struktur {
     flex-direction: column;
-    margin: 4em 2em 2em 3em;
+    margin: 4em 2em 2em 5em;
+  }
+  .footer-struktur h3 {
+    padding-left: 0;
   }
   .footerkontakt {
     margin-top: 2em;
@@ -526,6 +531,10 @@ footer {
   }
 }
 @media screen and (max-width: 520px) {
+  header a {
+    width: 70%;
+    padding: 0;
+  }
   /*--Overvejelser--*/
   .potestreg div, .potestreg2 div {
     margin-top: 0.7em;
