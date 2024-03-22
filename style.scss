@@ -80,6 +80,17 @@ img{
     float: right;
 }
 
+.pile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pilogtekst{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
 /*Navigation*/
 
 header{
