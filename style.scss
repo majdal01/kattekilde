@@ -89,6 +89,19 @@ img{
     gap: 1em;
 }
 
+.fadein{
+    animation: fadein 3s;
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 /*Navigation*/
 
 header{
@@ -111,6 +124,7 @@ header{
             &:hover{
                 border-bottom: 3px solid partial.$cta-color;
             }
+
         }
     }
 

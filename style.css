@@ -78,6 +78,7 @@ img {
   background-color: #fff;
   border: 3px solid #D13E1A;
   color: #D13E1A;
+  transition: all 0.2s ease-in-out;
 }
 
 .aktivside {
@@ -100,6 +101,18 @@ img {
   gap: 1em;
 }
 
+.fadein {
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*Navigation*/
 header {
   grid-column: 2/4;
@@ -186,6 +199,7 @@ header .fa-bars {
   background-color: #fff;
   border: 3px solid #D13E1A;
   color: #D13E1A;
+  transition: all 0.2s ease-in-out;
 }
 
 /*Artikler*/
